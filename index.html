@@ -34,25 +34,46 @@
                 Purr jump eat the grass rip the couch scratched sunbathe, 
                 shed everywhere rip the couch sleep in the sink fluffy fur 
                 catnip scratched.</p>
+            <div>
+                <p>Things cats love:</p>
+                <ul>
+                    <li>Yarn</li>
+                    <li>Wet food</li>
+                    <li>Cat nip</li>
+                </ul>
 
-            <p>Things cats love:</p>
-            <ul>
-                <li>Yarn</li>
-                <li>Wet food</li>
-                <li>Cat nip</li>
-            </ul>
-
-            <p>Things cats hate:</p>
-            <ol>
-                <li>Water</li>
-                <li>Sneaky cucumbers</li>
-                <li>cats</li>
-            </ol>
+                <p>Things cats hate:</p>
+                <ol>
+                    <li>Water</li>
+                    <li>Sneaky cucumbers</li>
+                    <li>cats</li>
+                </ol>
+            </div>
 
             <form action="#">
                 <!--Create a list of favorite cat photos online-->
                 <input type="text" placeholder="cat photo URL" required>
                 <button type="submit">Submit</button>
+                <label for="indoor">
+                    <input id="indoor" type="radio" 
+                    name="indoor-outdoor" value="indoor" checked>Indoor
+                </label>
+                <label for="outdoor">
+                    <input id="outdoor" type="radio" 
+                    name="indoor-outdoor" value="outdoor">Outdoor
+                </label>
+                <label for="loving">
+                    <input id="loving" type="checkbox"
+                    name="personality" value="loving" checked>Loving
+                </label>
+                <label for="lazy">
+                    <input id="lazy" type="checkbox"
+                    name="personality" value="lazy">Lazy
+                </label>
+                <label for="energetic">
+                    <input id="energetic" type="checkbox"
+                    name="personality" value="energetic">Energetic
+                </label>
             </form>
 
         </main>
