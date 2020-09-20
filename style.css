@@ -1,6 +1,13 @@
 h2 {
     font-family: Lobster, monospace;
 }
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
 
 p {
     font-size: 16px;
